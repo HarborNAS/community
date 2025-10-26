@@ -1,0 +1,33 @@
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If something isn't working as expected, let us know so we can investigate and improve the platform.
+
+  - type: textarea
+    attributes:
+      label: Details
+      description: >-
+        Please describe:
+
+        1. Steps to reproduce
+        2. Expected Result
+        3. Actual Result
+
+        Please use English for your report.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Attach debug
+      description: Debugs may contain log files with personal information such as usernames or other identifying information about your system.
+      options:
+        - label: I have attached debug logs
+          required: false
+  - type: checkboxes
+    attributes:
+      label: Attach screenshots
+      options:
+        - label: I have attached screenshots
+          required: true
