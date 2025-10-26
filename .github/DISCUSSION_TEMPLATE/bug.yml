@@ -17,6 +17,7 @@ body:
 
         3. Actual Result
 
+
         Please use English for your report.
     validations:
       required: true
