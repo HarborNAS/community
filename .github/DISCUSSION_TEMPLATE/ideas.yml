@@ -1,0 +1,29 @@
+labels:
+- enhancement
+body:
+- type: markdown
+  attributes:
+    value: English and Chinese are welcome. Search existing issues and discussions
+      first. Remove passwords, tokens, serial numbers, and personal information from
+      logs and screenshots.
+- type: textarea
+  id: problem
+  attributes:
+    label: Problem or use case
+    description: Describe the need and who would benefit.
+  validations:
+    required: true
+- type: textarea
+  id: proposal
+  attributes:
+    label: Suggested improvement
+    description: How would you like HarborOS to work?
+  validations:
+    required: true
+- type: textarea
+  id: alternatives
+  attributes:
+    label: Alternatives and context (optional)
+    description: Describe workarounds or alternatives you have considered.
+  validations:
+    required: false

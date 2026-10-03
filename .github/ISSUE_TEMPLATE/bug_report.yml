@@ -1,0 +1,49 @@
+name: Bug report / Bug 反馈
+description: Report something that is not working in HarborOS.
+title: '[Bug]: '
+labels:
+- bug
+body:
+- type: markdown
+  attributes:
+    value: English and Chinese are welcome. Search existing issues and discussions
+      first. Remove passwords, tokens, serial numbers, and personal information from
+      logs and screenshots.
+- type: textarea
+  id: summary
+  attributes:
+    label: What happened?
+    description: Describe the problem and any error message.
+  validations:
+    required: true
+- type: textarea
+  id: steps
+  attributes:
+    label: Steps to reproduce
+    description: List the steps, or explain when the problem occurs if you cannot
+      reproduce it consistently.
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: Expected behavior
+    description: What did you expect to happen?
+  validations:
+    required: true
+- type: textarea
+  id: environment
+  attributes:
+    label: System and version
+    description: HarborOS version/build (or unknown), server model, relevant apps/devices,
+      and browser if applicable.
+  validations:
+    required: false
+- type: textarea
+  id: evidence
+  attributes:
+    label: Logs and screenshots (optional)
+    description: Attach relevant, redacted logs or screenshots. Screenshots are not
+      required.
+  validations:
+    required: false

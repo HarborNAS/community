@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+contact_links:
+- name: Community Q&A / 社区问答
+  url: https://github.com/HarborNAS/community/discussions/categories/q-a
+  about: Ask the community for configuration and usage help. You can also use the
+    question issue form.
+- name: Ideas and community discussions / 建议与交流
+  url: https://github.com/HarborNAS/community/discussions
+  about: Share ideas, feedback, and your HarborOS setup.

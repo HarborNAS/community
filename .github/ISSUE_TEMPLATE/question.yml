@@ -1,0 +1,40 @@
+name: Configuration question / 配置提问
+description: Ask for help with setup, configuration, or usage.
+title: '[Question]: '
+labels:
+- question
+body:
+- type: markdown
+  attributes:
+    value: English and Chinese are welcome. Search existing issues and discussions
+      first. Remove passwords, tokens, serial numbers, and personal information from
+      logs and screenshots.
+- type: textarea
+  id: question
+  attributes:
+    label: Your question
+    description: What are you trying to configure or accomplish? Where are you stuck?
+  validations:
+    required: true
+- type: textarea
+  id: environment
+  attributes:
+    label: System and version
+    description: HarborOS version/build (or unknown), server model, relevant apps/devices,
+      and browser if applicable.
+  validations:
+    required: false
+- type: textarea
+  id: attempts
+  attributes:
+    label: What have you tried?
+    description: Include relevant settings, steps, and error messages.
+  validations:
+    required: false
+- type: textarea
+  id: evidence
+  attributes:
+    label: Additional context (optional)
+    description: Attach redacted logs or screenshots if helpful.
+  validations:
+    required: false
